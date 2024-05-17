@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+}
+
+h2{
+    margin-top: 0;
+    font-size: 20px;
+    font-family: impact;
+}
+
+div{
+    margin: 8%;
+}
+
+button{
+    margin: 50px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 420px;
+    height: 55px;
+    border-radius: 0;
+    border: none;
+    background-color:rgb(232, 223, 161);
+    cursor: pointer;
+    box-shadow: 2.2px 2px 0px #000;
+    transition: transform 200ms ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+#explanation {
+    font-size: 20px;
+    font-family: georgia;
+    text-align: center;
+    margin-top: -3%;
+}

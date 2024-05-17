@@ -1,0 +1,66 @@
+body{
+    background-color: beige;
+}
+h1{
+    text-align: center;
+}
+
+input{
+    flex: 1;
+    background: transparent;
+    margin: 6%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(240, 206, 143);
+    border: none;
+    border-radius: 2%;
+    width: 420px;
+    height: 50px;
+    font-size: 30px;
+    outline: 0;
+    color: #333;
+}
+
+.search {
+    width: 600px;
+    background: #fff;
+    margin: 50px auto 0;
+    border-radius: 5px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+::placeholder{
+    color: #555;
+}
+
+.list{
+    max-height: 280px;
+    overflow-y: scroll;
+}
+
+.list ul{
+    border-top: 1px solid #999;
+    padding: 15px 10px;
+}
+
+.list ul li{
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+.search .list ul li:hover{
+    background-color: #7aa0cd;
+}
+
+.search .chart{
+    background-color: cadetblue;
+    display: flex;
+}
